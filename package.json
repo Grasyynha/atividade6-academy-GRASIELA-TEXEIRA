@@ -1,0 +1,29 @@
+{
+  "name": "atividade6-academy-grasiela-texeira",
+  "version": "1.0.0",
+  "description": "Atividade 6 - Raro Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Grasyynha/atividade6-academy-GRASIELA-TEXEIRA.git"
+  },
+  "author": "Grasiela Texeira",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/steps/[filepart].step.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Grasyynha/atividade6-academy-GRASIELA-TEXEIRA/issues"
+  },
+  "homepage": "https://github.com/Grasyynha/atividade6-academy-GRASIELA-TEXEIRA#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.8.1",
+    "esbuild": "^0.20.2",
+    "@faker-js/faker": "^8.4.1"
+  }
+}
